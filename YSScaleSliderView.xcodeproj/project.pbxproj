@@ -13,6 +13,8 @@
 		53B087671EE4070500124AFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B087651EE4070500124AFF /* Main.storyboard */; };
 		53B087691EE4070500124AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53B087681EE4070500124AFF /* Assets.xcassets */; };
 		53B0876C1EE4070500124AFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B0876A1EE4070500124AFF /* LaunchScreen.storyboard */; };
+		53B087771EE4071D00124AFF /* YSScaleSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B087741EE4071D00124AFF /* YSScaleSliderView.m */; };
+		53B087781EE4071D00124AFF /* YSScaleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B087761EE4071D00124AFF /* YSScaleSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		53B087681EE4070500124AFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53B0876B1EE4070500124AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53B0876D1EE4070500124AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53B087731EE4071D00124AFF /* YSScaleSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSScaleSliderView.h; sourceTree = "<group>"; };
+		53B087741EE4071D00124AFF /* YSScaleSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSScaleSliderView.m; sourceTree = "<group>"; };
+		53B087751EE4071D00124AFF /* YSScaleSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSScaleSlider.h; sourceTree = "<group>"; };
+		53B087761EE4071D00124AFF /* YSScaleSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSScaleSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				53B087621EE4070500124AFF /* ViewController.h */,
 				53B087631EE4070500124AFF /* ViewController.m */,
 				53B087651EE4070500124AFF /* Main.storyboard */,
+				53B087731EE4071D00124AFF /* YSScaleSliderView.h */,
+				53B087741EE4071D00124AFF /* YSScaleSliderView.m */,
+				53B087751EE4071D00124AFF /* YSScaleSlider.h */,
+				53B087761EE4071D00124AFF /* YSScaleSlider.m */,
 				53B087681EE4070500124AFF /* Assets.xcassets */,
 				53B0876A1EE4070500124AFF /* LaunchScreen.storyboard */,
 				53B0876D1EE4070500124AFF /* Info.plist */,
@@ -151,6 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B087771EE4071D00124AFF /* YSScaleSliderView.m in Sources */,
+				53B087781EE4071D00124AFF /* YSScaleSlider.m in Sources */,
 				53B087641EE4070500124AFF /* ViewController.m in Sources */,
 				53B087611EE4070500124AFF /* AppDelegate.m in Sources */,
 				53B0875E1EE4070500124AFF /* main.m in Sources */,
